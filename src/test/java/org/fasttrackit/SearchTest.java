@@ -17,8 +17,7 @@ public class SearchTest {
         driver.get("https://fasttrackit.org/selenium-test/");
         driver.findElement(By.id("search")).sendKeys("vase" + Keys.ENTER);
       //  driver.findElement(By.name("q")).sendKeys("q"+ Keys.ENTER);
-
-
+        driver.findElement(By.linkText("Add to Wishlist")).click();
 
 
 
